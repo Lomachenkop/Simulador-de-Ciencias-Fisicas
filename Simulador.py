@@ -2,7 +2,7 @@ import streamlit as st
 
 st.title("🧬 Simulador de Estabilidad Térmica del ADN")
 st.write("Calcula la energía necesaria para separar las hebras según su composición física.")
-
+st.header("Brigada A en la casa")
 # Entrada de datos
 secuencia = st.text_input("Introduce una secuencia de ADN (ej. ATGC):", "ATGC").upper()
 
