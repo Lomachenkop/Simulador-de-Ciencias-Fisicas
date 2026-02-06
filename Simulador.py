@@ -30,4 +30,4 @@ st.markdown("""
 * **Energía de Enlace:** El par G-C es más estable porque tiene más puentes de hidrógeno. 
 * **Termodinámica:** A mayor temperatura, aumentamos la energía cinética de las moléculas hasta vencer la energía de enlace.
 """)
-st.balloons
+st.balloons()
