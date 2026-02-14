@@ -18,7 +18,7 @@ actividad = st.sidebar.selectbox(
 )
 
 if actividad == "Actividad 2: Rosario":
-    st.header("🚶 Actividad 2: El camino de Rosario")
+    st.header("Actividad 2: El camino de Rosario")
     st.write("Rosario camina 500 m desde el colmado hasta su casa[cite: 182].")
     
     # Sistema de Coordenadas (SC) [cite: 211]
