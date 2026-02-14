@@ -41,7 +41,7 @@ if actividad == "Actividad 2: Rosario":
     st.info(f"Tiempo estimado: 500 segundos[cite: 199].")
 
 elif actividad == "Actividad 3 y 4: Recorrido A-B-FIN":
-    st.header("📍 Trayectoria y Desplazamiento")
+    st.header("Trayectoria y Desplazamiento")
     
     # Datos del problema [cite: 318]
     coords = {'INICIO': [0,0], 'A': [0,2.6], 'B': [4,2.6], 'FIN': [7.5, 6.5]}
