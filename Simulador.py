@@ -11,7 +11,7 @@ st.markdown("Parte del proyecto de investigación:" " Implementación del Aprend
 # Selección de actividad
 actividad = st.sidebar.selectbox(
     "Selecciona la Actividad",
-    ["Actividad 2: Rosario", "Actividad 3 y 4: Recorrido A-B-FIN"]
+    ["Actividad 2: Rosario", "Actividad 3 y 4: Recorrido A-B-FIN", "Aquí no hay nada, es solo prueba"]
 )
 
 if actividad == "Actividad 2: Rosario":
