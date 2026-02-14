@@ -4,10 +4,13 @@ import plotly.graph_objects as go
 # Configuración de la página
 st.set_page_config(page_title="Simulador Física", layout="wide")
 
-st.title("🎢 Simulador de Física: Movimiento y Vectores")
+st.title("Simulador de Ciencias Físicas: Movimiento y Vectores")
 st.header("Basado en la secuencia didáctica de Conceptos del Movimiento")
 st.markdown("Parte del proyecto de investigación:" " *Implementación del Aprendizaje Experiencial de Kolb para Potenciar la Competencia de Resolución de Problemas en Ciencias de la Naturaleza en los estudiantes de Tercero de Secundaria del Instituto Politécnico Braulio Paulino, año Escolar 2025-2026.*")
 
+col1, col2, col3 = st.columns([1, 2, 1]) 
+with col2: # La imagen solo vive en la columna del medio
+    st.image("BrigadaA.jpg", caption="**Figura 1**:" " *Equipo investigador*", use_container_width=True)
 # Selección de actividad
 actividad = st.sidebar.selectbox(
     "Selecciona la Actividad",
