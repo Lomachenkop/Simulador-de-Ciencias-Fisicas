@@ -6,7 +6,7 @@ st.set_page_config(page_title="Simulador Física", layout="wide")
 
 st.title("🎢 Simulador de Física: Movimiento y Vectores")
 st.header("Basado en la secuencia didáctica de Conceptos del Movimiento")
-st.markdown("Parte del proyecto de investigación:" " Implementación del Aprendizaje Experiencial de Kolb para Potenciar la Competencia de Resolución de Problemas en Ciencias de la Naturaleza en los estudiantes de Tercero de Secundaria del Instituto Politécnico Braulio Paulino, año Escolar 2025-2026.")
+st.subheader("Parte del proyecto de investigación:" " Implementación del Aprendizaje Experiencial de Kolb para Potenciar la Competencia de Resolución de Problemas en Ciencias de la Naturaleza en los estudiantes de Tercero de Secundaria del Instituto Politécnico Braulio Paulino, año Escolar 2025-2026.")
 
 # Selección de actividad
 actividad = st.sidebar.selectbox(
