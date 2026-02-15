@@ -5,7 +5,7 @@ import plotly.graph_objects as go
 st.set_page_config(page_title="Simulador Física", layout="wide")
 
 st.title("Simulador de Ciencias Físicas: Movimiento y Vectores")
-st.header("Basado en la secuencia didáctica de Conceptos del Movimiento")
+st.header("Basado en la secuencia didáctica de Conceptos del Movimiento del Plan Horizonte")
 st.markdown("**Parte del proyecto de investigación:**" " *Implementación del Aprendizaje Experiencial de Kolb para Potenciar la Competencia de Resolución de Problemas en Ciencias de la Naturaleza en los estudiantes de Tercero de Secundaria del Instituto Politécnico Braulio Paulino, año Escolar 2025-2026.*")
 
 col1, col2, col3 = st.columns([1, 2, 1]) 
